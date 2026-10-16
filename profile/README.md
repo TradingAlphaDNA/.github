@@ -8,9 +8,9 @@ TradingAlphaDNA (TAD) is a local stock and options trading review and insight ap
 - **Data architecture & curation:** Designed extensible, layered data models with user review and traceable corrections to improve data quality and support additional brokers and analyses.
 - **AI-native development:** Built and iterated the application, coordinating specialized AI agents for implementation, code review, testing, and release.
 
-**Under active development · Demo available on request · Planned distribution: shareware**
+**Under active development · [Demo available on request](mailto:hhuang68@gmail.com) · Planned distribution: shareware**
 
-Pricing and usage terms are not yet announced. The materials below are publicly available product introductions; a product demo is available on request.
+Pricing and usage terms are not yet announced.
 
 ### Explore TAD
 
