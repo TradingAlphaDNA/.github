@@ -8,6 +8,18 @@ TradingAlphaDNA (TAD) is a local stock and options trading review and insight ap
 - **Data architecture & curation:** Designed extensible, layered data models with user review and traceable corrections to improve data quality and support additional brokers and analyses.
 - **AI-native development:** Built and iterated the application, coordinating specialized AI agents for implementation, code review, testing, and release.
 
+### Application architecture
+
+| Layer | Implementation |
+| --- | --- |
+| Backend | Python services and deterministic financial rules, with Decimal arithmetic for monetary calculations |
+| Data | Layered broker records, normalized trade data and derived analysis; traceable user curation and SQLite revision history |
+| Frontend | HTML, CSS and plain JavaScript browser views, served by the local application |
+
+AI agents support development and review. The application runs locally without a model or API key; deterministic rules produce its financial results.
+
+**Public showcase:** Product pages, screenshots, PDFs and selected engineering explanations are available in [tad-showcase](https://github.com/TradingAlphaDNA/tad-showcase). The full application source remains private.
+
 **Under active development · [Demo available on request](mailto:hhuang68@gmail.com) · Planned distribution: shareware**
 
 Pricing and usage terms are not yet announced.
