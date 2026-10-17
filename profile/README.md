@@ -1,36 +1,32 @@
 # TradingAlphaDNA
 
-**Understand your trades. Evolve your trading.**
+**See what your stock and options trades actually earned.**
 
-TradingAlphaDNA (TAD) is a local stock and options trading review and insight application. Product and engineering highlights:
+Trading records can be spread across accounts, stocks and option legs. TAD connects them so investors can review how related trades contributed to gains and losses—and how much capital they used.
+
+Built for investors who actively manage stocks and options, especially when broker screens and spreadsheets make it hard to see the combined result.
+
+[See the product · 中英文介绍](https://tradingalphadna.github.io/tad-showcase/) · [Request a demo](mailto:hhuang68@gmail.com)
+
+### Project highlights
 
 - **Product & financial logic:** Designed stock and options review workflows covering strategy contributions, per-stock P&L, trading costs, and capital efficiency.
 - **Data architecture & curation:** Designed extensible, layered data models with user review and traceable corrections to improve data quality and support additional brokers and analyses.
 - **AI-native development:** Built and iterated the application, coordinating specialized AI agents for implementation, code review, testing, and release.
 
-### Application architecture
-
-| Layer | Implementation |
-| --- | --- |
-| Backend | Python services and deterministic financial rules, with Decimal arithmetic for monetary calculations |
-| Data | Layered broker records, normalized trade data and derived analysis; traceable user curation and SQLite revision history |
-| Frontend | HTML, CSS and plain JavaScript browser views, served by the local application |
-
-AI agents support development and review. The application runs locally without a model or API key; deterministic rules produce its financial results.
-
-**Public showcase:** Product pages, screenshots, PDFs and selected engineering explanations are available in [tad-showcase](https://github.com/TradingAlphaDNA/tad-showcase). The full application source remains private.
-
-**Under active development · [Demo available on request](mailto:hhuang68@gmail.com) · Planned distribution: shareware**
-
-Pricing and usage terms are not yet announced.
+The project turns a practical trading-review problem into a working local application, from broker-data import and trade reconstruction to investment analysis. [Read the engineering case study](https://github.com/TradingAlphaDNA/tad-showcase/blob/main/docs/engineering-case-study.md) for the design choices and validation behind it.
 
 ### Explore TAD
 
-- [Product introduction and screenshots · 中英文网站](https://tradingalphadna.github.io/tad-showcase/)
-- Product overview PDF: [English](https://tradingalphadna.github.io/tad-showcase/TADIntro.en.pdf) · [中文](https://tradingalphadna.github.io/tad-showcase/TADIntro.cn.pdf)
-- [Engineering case study](https://github.com/TradingAlphaDNA/tad-showcase/blob/main/docs/engineering-case-study.md)
-- [Latest showcase materials](https://github.com/TradingAlphaDNA/tad-showcase/releases/latest)
+- [Project overview](https://github.com/TradingAlphaDNA/tad-showcase)
+- Product overview: [English PDF](https://tradingalphadna.github.io/tad-showcase/TADIntro.en.pdf) · [中文 PDF](https://tradingalphadna.github.io/tad-showcase/TADIntro.cn.pdf)
+- [Latest presentation downloads](https://github.com/TradingAlphaDNA/tad-showcase/releases/latest)
 
 ![TAD product overview using synthetic demonstration data](https://raw.githubusercontent.com/TradingAlphaDNA/tad-showcase/main/assets/screenshots/tad-product-overview.jpg)
 
-*Actual product screen with wholly synthetic demonstration data. Known results and unresolved items remain distinct; these figures are not investment-performance claims.*
+*Actual product screen using artificial demonstration data. Some strategy results remain incomplete and are marked in the application.*
+
+**Under active development · Planned distribution: shareware.** Pricing and usage terms are not yet announced.
+
+The public showcase contains presentations and selected engineering explanations. The full application source remains private; no application-use license is offered by this showcase. TAD runs locally without a model or API key.
+
