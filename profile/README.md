@@ -16,6 +16,12 @@ Built for investors who actively manage stocks and options, especially when brok
 
 The project turns a practical trading-review problem into a working local application, from broker-data import and trade reconstruction to investment analysis. [Read the engineering case study](https://github.com/TradingAlphaDNA/tad-showcase/blob/main/docs/engineering-case-study.md) for the design choices and validation behind it.
 
+### Help improve TAD
+
+Does TAD address a problem you face when trading options? If you’d like to help us improve it, email us at **[hhuang68@gmail.com](mailto:hhuang68@gmail.com)**. We’ll follow up to learn about your needs and discuss how we can help.
+
+Please don’t include account details or trading records in your initial email.
+
 ### Explore TAD
 
 - [Project overview](https://github.com/TradingAlphaDNA/tad-showcase)
