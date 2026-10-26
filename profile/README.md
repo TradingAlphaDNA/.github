@@ -8,6 +8,12 @@ Built for investors who actively manage stocks and options, especially when brok
 
 [See the product · 中英文介绍](https://tradingalphadna.github.io/tad-showcase/) · [Request a demo](mailto:hhuang68@gmail.com)
 
+### Try the Mac technical preview
+
+**[Download 1.1.0-alpha.1 · Mac 公开测试](https://github.com/TradingAlphaDNA/tad-showcase/releases/tag/tad-test-v1.1.0-alpha.1)** · [English instructions](https://github.com/TradingAlphaDNA/tad-showcase/blob/main/docs/testing/README.en.md) · [中文步骤](https://github.com/TradingAlphaDNA/tad-showcase/blob/main/docs/testing/README.zh.md) · [Feedback](https://github.com/TradingAlphaDNA/tad-showcase/issues/new?template=technical-preview.yml)
+
+**Ad-hoc signed; NOT notarized / 临时签名，尚未公证。** Planned: Apple Silicon M1 and later M-series, release macOS 15/26/27. Verified: development Mac on macOS 15.2 only; test-user installation and download results are pending. No Python/Git or private source access is needed. Start with the included synthetic data in a fresh environment; keep personal records out of public feedback. [Evaluation notice](https://github.com/TradingAlphaDNA/tad-showcase/blob/main/docs/testing/TESTING-NOTICE.md).
+
 ### Project highlights
 
 - **Product & financial logic:** Designed stock and options review workflows covering strategy contributions, per-stock P&L, trading costs, and capital efficiency.
@@ -26,7 +32,7 @@ Please don’t include account details or trading records in your initial email.
 
 - [Project overview](https://github.com/TradingAlphaDNA/tad-showcase)
 - Product overview: [English PDF](https://tradingalphadna.github.io/tad-showcase/TADIntro.en.pdf) · [中文 PDF](https://tradingalphadna.github.io/tad-showcase/TADIntro.cn.pdf)
-- [Latest presentation downloads](https://github.com/TradingAlphaDNA/tad-showcase/releases/latest)
+- [Latest presentation downloads](https://github.com/TradingAlphaDNA/tad-showcase/releases/tag/showcase-v1.0.2)
 
 ![TAD product overview using synthetic demonstration data](https://raw.githubusercontent.com/TradingAlphaDNA/tad-showcase/main/assets/screenshots/tad-product-overview.jpg)
 
@@ -34,5 +40,4 @@ Please don’t include account details or trading records in your initial email.
 
 **Under active development · Planned distribution: shareware.** Pricing and usage terms are not yet announced.
 
-The public showcase contains presentations and selected engineering explanations. The full application source remains private; no application-use license is offered by this showcase. TAD runs locally without a model or API key.
-
+The public showcase contains presentations and selected engineering explanations. The full application source remains private. The public preview is available for local evaluation as described in its evaluation notice; the showcase does not provide an open-source license. TAD runs locally without a model or API key.
